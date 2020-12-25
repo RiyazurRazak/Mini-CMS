@@ -1,0 +1,99 @@
+.footer{
+    width: 70%;
+    background-color:#649195;
+    background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+    position: relative;
+    float: right;
+    padding: 50px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    box-shadow:  10px 10px 20px #16261e,  -10px -10px 20px #3c6a54;
+}
+.footer__container{
+    display: flex;
+}
+.footer__col-1{
+    width: auto;
+}
+.fab{
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+}
+.footer__title{
+    color: brown;
+    font-family: 'Pacifico', cursive;
+}
+.footer__col-2{
+    display: flex;
+    flex-flow: column;
+    color: #000000;
+    text-align: left;
+    margin-left: 50px !important;
+    width: auto;
+    padding: 0 10px;
+  
+}
+.footer__contacts{
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+.footer__credential{
+   float: right;
+   color: #121212;
+   margin-right: 30px;
+   margin-top: 40px;
+   display: flex;
+   flex-flow: row;
+   width: 100%;
+   justify-content: space-around;
+}
+.footer__creater{
+   padding:10px;
+}
+.footer__copyright{
+    margin-top: 0;
+    padding: 10px;
+}
+.footer__links{
+    color: #000000;
+}
+.footer__links:hover{
+          color: aliceblue;
+          text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+        .footer__container{
+            display: block;
+        }
+        .footer__col-1{
+            width: 100%;
+        }
+        .fab{
+            justify-content: space-around;
+        }
+        .footer__col-2{
+            margin-left: 0 !important;
+        }
+        .footer__contacts{
+            margin-left:0; 
+        }
+        .footer__credential{
+            font-size: 14px;
+            color: #16261e;
+            display: inline;
+        }
+        .footer__creater{
+            margin-bottom: 0;
+        }
+        .footer__copyright{
+            margin-bottom: 0;
+        }
+}

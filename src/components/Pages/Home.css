@@ -1,0 +1,136 @@
+.home__header_container{
+    position: relative;
+}
+.home__header_image{
+  background-image: url('../../assets/hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+  filter:brightness(50%);
+}
+.home__scroll{
+    color: #f5f5ff;
+}
+.home__scroll:hover{
+    color: #ffffdd !important;
+    text-decoration-line: none;
+}
+.home__header_center_text{
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    overflow: hidden; 
+    border-right: 10px solid #AD5725; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: 10px;
+    animation: 
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+}
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #AD5725; }
+}
+.home__header_bottom_text{
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    color: #ffffff;
+}
+.home__grid_right{
+    padding: 20px 0 !important;
+}
+.home__image_div{
+    height: 100%;
+}
+.home__about_text_container{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    background: #294839;
+    box-shadow:  10px 10px 20px #16261e,  -10px -10px 20px #3c6a54; 
+}
+.text_container_title{
+    color: #649195;
+    font-family: 'Dancing Script', cursive;
+}
+.text_container_content{
+    color: #f5f5ff;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.about_text_list{
+    text-align: left;
+    color: #bbbbbb;
+}
+.text_container_btn{
+    color: #649195 !important;
+    font-weight: 600;
+    border: 1px solid #beb993 !important;
+    margin-top: 20px !important;
+}
+.home__flip_cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home__blog_container{
+    padding: 0 100px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .home__about_text_container{
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .home__header_center_text{
+        white-space: normal; 
+        padding: 30px;
+        font-size: 30px;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 40% }
+    }
+  
+}
+
+@media only screen and (max-width: 800px) {
+
+    .home__blog_container{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+      }
+      .home__header_center_text{
+        white-space: normal; 
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .home__flip_cards{
+        flex-flow: column;
+        align-items: center;
+    }
+
+}

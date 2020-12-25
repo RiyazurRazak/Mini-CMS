@@ -1,0 +1,38 @@
+.dashboard__list{
+    height: 100% !important;
+    border-right: 1px solid #ffffff;
+    overflow-wrap: break-word;
+    border-bottom: 1px dashed #ffffff;
+}
+.Mui-selected{
+    background-color: #808080 !important;
+}
+.dashboard__icon{
+    color: #ffffff !important;
+}
+.dashboard__text{
+    color: #ffffff!important;
+}
+.dashboard__divider{
+    background-color: #ffffff !important;
+}
+.dashboard__link{
+    text-decoration: none !important;
+    background: none !important;
+}
+.dashboard__user_container{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.dashboard__username ,.dashboard__credentialName{
+    color: aliceblue;
+}
+.dashboard__credential{
+    float: left;
+    margin-left: 20px;
+}
+.dashboard__logoutBtn{
+    color: aliceblue !important;
+}

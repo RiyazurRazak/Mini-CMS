@@ -1,0 +1,27 @@
+.headingupdater__form_container{
+    margin: 50px;
+}
+.headingupdater_title{
+    color: chocolate;
+}
+.MuiInput-underline::before{
+    border-bottom: 2px solid #ffffff !important;
+}
+.MuiInput-underline::after{
+    border-bottom: 2px solid chocolate !important;
+}
+.MuiInputBase-input{
+    color: yellowgreen !important;
+    font-size: 20px !important;
+}
+.MuiFormLabel-root{
+    color: #ffffff !important;
+}
+.MuiFormHelperText-root{
+    color: cornsilk !important;
+}
+.headingupdater__submit{
+    margin-top: 40px !important;
+    color: tomato !important;
+    border: 2px solid chocolate !important;
+}

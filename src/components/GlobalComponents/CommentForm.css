@@ -1,0 +1,43 @@
+.comment__name_container{
+    margin: 40px;
+}
+.comment_name{
+color: #ffffff !important;
+background: transparent !important;
+}
+.comment_textrea{
+    width: 90%;
+    margin: 40px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.comment__btn{
+    margin-left: 40px !important;
+    color: tomato !important;
+    border: 2px solid chocolate !important;
+}
+.comment_heading{
+    padding-left: 40px;
+    color: chocolate;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    .comment_textrea{
+        width: 70%;
+        margin: 20px;
+    }
+    .comment_textarea_container{
+        text-align: center;
+    }
+    .comment__name_container{
+        text-align: center;
+    }
+    .comment__btn_container{
+        text-align: center !important;
+    }
+    .comment__btn{
+        margin-left: 0 !important;
+    }
+}

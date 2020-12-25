@@ -1,0 +1,22 @@
+.testimonialupdater__container{
+    margin: 100px;
+}
+.testimonialupdater__image{
+    width: 80px;
+}
+input[type="file"] {
+    display: none;
+}
+.testimonialupdater__upload_label{
+    margin-top: 10;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 500;
+}
+.testimonialupdater__input_container{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.testimonialupdater__heading{
+    color: blanchedalmond;
+}

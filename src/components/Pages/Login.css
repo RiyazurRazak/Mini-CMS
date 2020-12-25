@@ -1,0 +1,15 @@
+.login__container{
+    text-align: center;
+    margin-top: 20%; 
+}
+.login__input_label{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.login__input{
+    background-color: transparent !important;
+    color: #ffffff !important; 
+}
+.login__icon{
+    color: #fefefe !important;
+}

@@ -1,0 +1,45 @@
+.contact__container{
+    margin-left: 80px;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 30px;
+    color: honeydew;
+   
+    width: auto;
+    padding: 50px;
+}
+.contact__form{
+    width: 100%;
+    display: flex;
+    justify-content:  center;
+}
+.contact__input{
+    width: 80%;
+    padding: 40px;
+    border-radius: 20px;
+    background: #294839;
+    box-shadow:  10px 10px 20px #16261e,  -10px -10px 20px #3c6a54; 
+}
+.name_input, .select_input, .message_input{
+    border-radius: 8px;
+    background-color: #294839;
+    color: #ffffff;
+}
+.name_input::placeholder , .select_input::placeholder , .message_input::placeholder{
+    color: khaki;
+}
+.btn_input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lavender;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+        
+    .contact__input{
+        width: 50%;
+    }
+}

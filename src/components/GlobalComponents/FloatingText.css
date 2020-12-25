@@ -1,0 +1,26 @@
+.floating-container{
+    position: fixed;
+    right: 20px ;
+    bottom: 20px;
+    z-index: 999;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+   
+}
+.floating-text{
+    color: #AD5725 ;
+    font-weight: 900;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+.floating-text:hover{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .floating-text{
+        font-size: 20px;
+    }
+}

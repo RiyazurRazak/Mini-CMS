@@ -1,0 +1,14 @@
+html  {
+  margin: 0;
+  background: #294839;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(10,14,12);
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  background-image:url("https://www.transparenttextures.com/patterns/asfalt-dark.png"),linear-gradient(100deg, rgba(10,14,12,1) 0%, rgba(41,72,57,1) 54%);
+}
+.loader{
+  z-index: 99999 !important;
+  color: aliceblue !important;
+}

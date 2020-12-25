@@ -1,0 +1,20 @@
+.portfolioupdater__container{
+    margin: 40px;
+}
+.portfolioupdater__title{
+    color: chocolate;
+    margin-top: 20px;
+}
+.portfolioupdater__img-gallery{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+.portfolioupdater__img_container{
+    background-color: rgba(169, 169, 169, 0.253);
+}
+.portfolioupdater__btn{
+    margin-top: 40px !important;
+    border-color: chocolate !important;
+    color: cornflowerblue !important;
+}
